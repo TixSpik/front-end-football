@@ -1,0 +1,7 @@
+const playerActionType = {
+    FETCH_PLAYERS_START: 'FETCH_PLAYERS_START',
+    FETCH_PLAYERS_SUCCESS: 'FETCH_PLAYERS_SUCCESS',
+    FETCH_PLAYERS_FAILURE: 'FETCH_PLAYERS_FAILURE'
+}
+
+export default playerActionType
