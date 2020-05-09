@@ -1,8 +1,9 @@
 import React from 'react'
 import { Modal, Image, Header, Container } from 'semantic-ui-react'
 import moment from 'moment'
+
 export default function ModalCustom(props) {
-    console.log(props.data)
+
     return (
         <Modal open={props.open} onClose={props.onClose} centered>
             <Modal.Header style={{ background: 'green', padding: 0, margin: 0 }} ><Header className='centered' >FICHA TÉCNICA</Header></Modal.Header>
