@@ -6,8 +6,8 @@ export default function SideBar({ children }) {
     const [visible, setVisible] = useState(false)
 
     return (
-        <div >
-            <Sidebar.Pushable style={{ minHeight: '100vh', display: 'flex', flexFlow: 'column nowrap' }}>
+        <div>
+            <Sidebar.Pushable style={{ minHeight: '100%', display: 'flex', flexFlow: 'column nowrap' }}>
                 <Sidebar
                     as={Menu}
                     animation='push'

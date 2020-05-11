@@ -16,7 +16,7 @@ function Home({ fetchGamesAsync, games, fetchGamesAsyncAscensoMx, isFeching }) {
         <Container>
             {isFeching &&
                 <div>
-                    <Dimmer active>
+                    <Dimmer active >
                         <Loader size='massive' />
                     </Dimmer>
                 </div>

@@ -13,7 +13,7 @@ export default function ModalCustom(props) {
                     <Header size='large'>{props.data.name} {props.data.first_surname} {props.data.second_surname}</Header>
                     <Header size='medium' style={{ paddingBottom: 50 }}>{props.data.position}</Header>
                 </Container>
-                <Container textAlign='center' >
+                <Container textAlign='center' style={{ padding: 20 }}>
                     <Header size='large'>FECHA DE NACIMIENTO</Header>
                     <Header size='small'>{moment(props.data.birthday).format('DD/MM/YYYY')}</Header>
                     <Header size='large'>LUGAR DE NACIMIENTO</Header>
